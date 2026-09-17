@@ -11,7 +11,7 @@ packages:
   gitServerName: rahulsiv
   gitUrl: https://github.com/Rahul-Sivakumar-IBM
   gitUsername: Rahul-Sivakumar-IBM
-  gitBranch: "1.0"
+  gitBranch: "2.0"
 services:
 - serviceName: project.criticalissue.integrations:DAF1
   packages:
