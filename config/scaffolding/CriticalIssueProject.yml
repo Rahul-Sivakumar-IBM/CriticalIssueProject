@@ -1,23 +1,23 @@
+version: "1.0"
 info:
   model: int-scaffold
 packages:
-- gitBranch: main
+- name: CriticalIssueProject
   gitServerName: rahulsiv
   gitUrl: https://github.com/Rahul-Sivakumar-IBM
   gitUsername: Rahul-Sivakumar-IBM
-  name: CriticalIssueProject
-- gitBranch: '1.0'
+  gitBranch: main
+- name: TPPWithVar
   gitServerName: rahulsiv
   gitUrl: https://github.com/Rahul-Sivakumar-IBM
   gitUsername: Rahul-Sivakumar-IBM
-  name: TPPWithVar
+  gitBranch: "1.0"
 services:
-- packages:
+- serviceName: project.criticalissue.integrations:DAF1
+  packages:
   - name: CriticalIssueProject
     version: 2.0.0
-  serviceName: project.criticalissue.integrations:DAF1
-- packages:
+- serviceName: pub.date:currentNanoTime
+  packages:
   - name: WmPublic
     version: 12.1.0.0.1202
-  serviceName: pub.date:currentNanoTime
-version: '1.0'
