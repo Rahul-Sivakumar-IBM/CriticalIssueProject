@@ -7,6 +7,11 @@ packages:
   gitUrl: https://github.com/Rahul-Sivakumar-IBM
   gitUsername: Rahul-Sivakumar-IBM
   gitBranch: main
+- name: TPPWithVar
+  gitServerName: rahulsiv
+  gitUrl: https://github.com/Rahul-Sivakumar-IBM
+  gitUsername: Rahul-Sivakumar-IBM
+  gitBranch: "1.0"
 services:
 - serviceName: project.criticalissue.integrations:DAF1
   packages:
