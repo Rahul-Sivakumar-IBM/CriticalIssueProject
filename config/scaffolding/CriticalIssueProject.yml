@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/Rahul-Sivakumar-IBM
   gitUsername: Rahul-Sivakumar-IBM
   gitBranch: main
+services:
+- serviceName: project.criticalissue.integrations:DAF1
+  packages:
+  - name: CriticalIssueProject
+    version: "1.0"
+- serviceName: pub.date:currentNanoTime
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1202
